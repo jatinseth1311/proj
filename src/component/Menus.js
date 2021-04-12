@@ -5,20 +5,16 @@ const Menus=()=>{
     return(
         <ListGroup>
             <Link className="list-group-item list-group-item-action" tag="a" to="/">
-                Home
+               <h4>Home</h4>
             </Link>
-            <Link className="list-group-item list-group-item-action" tag="a" to="/add-course">
-                Add Course 
+            <Link className="list-group-item list-group-item-action" tag="a" to="/add-feedback">
+              <h4>Add Feedback</h4>  
             </Link>
-            <Link className="list-group-item list-group-item-action" tag="a" to="/view-courses">
-                View Course 
+            <Link className="list-group-item list-group-item-action" tag="a" to="/view-feedback">
+                <h4>View Feedback</h4>
             </Link>
-            
-            <Link className="list-group-item list-group-item-action" tag="a" to="#!">
-                AboutUs
-            </Link>
-            <Link className="list-group-item list-group-item-action" tag="a" to="#!">
-                Contact
+            <Link className="list-group-item list-group-item-action" tag="a" to="/contact">
+                <h4>Contact</h4>
             </Link>
         </ListGroup>
 
